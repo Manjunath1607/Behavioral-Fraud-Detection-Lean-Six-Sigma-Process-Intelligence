@@ -1,42 +1,62 @@
-# Behavioural Transaction Analysis for Fraud Detection
+Enterprise Behavioral Fraud Detection – Process Intelligence & Analytics
 
-A Lean Six Sigma Black Belt project applying the DMAIC methodology to enhance fraud detection accuracy by analyzing behavioral transaction patterns in a 10,000-record sample from a synthetic dataset of 1 million financial records.
+This repository showcases a process intelligence–driven fraud detection initiative applying Lean Six Sigma (DMAIC) and statistical validation to analyze behavioral risk patterns in high-volume transaction environments.
 
----
+The project focuses on reducing missed fraud (false negatives) by identifying subtle behavioral anomalies embedded within otherwise normal transaction flows — a key limitation of traditional rule-based detection systems.
 
-## 📌 Project Summary
+🔍 Problem Context
 
-This project aims to reduce missed frauds (false negatives) by identifying key behavioral indicators such as transaction velocity, spending anomalies, geo-location mismatches, and device/IP changes. Using non-parametric hypothesis testing and control charts, the team implemented improvements that significantly enhanced detection accuracy and process stability.
+Traditional fraud detection systems rely heavily on static thresholds, causing behavioral fraud at scale to bypass early detection. The objective was to uncover systemic fraud leakage and redesign detection logic for earlier risk stratification and stability.
 
----
+🧠 Approach & Methodology
 
-## 📂 Project Contents
+Applied Lean Six Sigma (DMAIC) integrated with process intelligence concepts
 
-- `/presentation/`: PowerPoint slides detailing the full DMAIC journey  
-- `README.md`: Summary of methodology, statistical tools used, and outcomes  
+Analyzed event-level transaction behavior to reconstruct actual execution patterns
 
----
+Performed statistical validation to distinguish fraud vs non-fraud behavior
 
-## 📊 Key Highlights
+Designed risk-based control logic with adaptive escalation
 
-- Used a **10,000-transaction sample** from a larger synthetic 5M-record dataset  
-- Identified `velocity_score` and `geo_anomaly_score` as statistically significant indicators (p < 0.005)  
-- Improved detection score from **~85 to 96.3** after implementing control rules  
-- Reduced variation; post-improvement results showed all points within control limits  
-- Root causes included erratic velocity, abnormal spending, device/IP changes, and high geo-anomaly scores
+📊 Key Outcomes
 
----
+Identified velocity score and geo-anomaly score as statistically significant fraud indicators (p < 0.005)
 
-## 🛠 Tools & Techniques
+Demonstrated that fraud is embedded within normal process execution, not isolated extremes
 
-- DMAIC Framework  
-- Anderson-Darling Normality Test  
-- Mann-Whitney U Test  
-- Spearman Correlation Analysis  
-- SIPOC, CTQ Tree, Fishbone Diagram  
-- I-MR Control Charts (Before vs. After)  
-- Baseline & post-improvement comparison dashboards  
+Improved fraud detection accuracy from ~85% to 96.3%
 
+Reduced post-improvement variation with all metrics remaining within control limits
+
+Established predictive-ready monitoring and governance controls
+
+🛠 Techniques & Capabilities Demonstrated
+
+Lean Six Sigma (DMAIC) applied to analytics use cases
+
+Statistical testing (Anderson–Darling, Mann–Whitney U)
+
+Root cause analysis & process conformance thinking
+
+Control charts and stability monitoring
+
+Risk stratification & escalation design
+
+Note: Synthetic data was used to simulate large-scale transaction behavior while preserving analytical rigor.
+
+🚀 Future Enhancement Roadmap
+
+Augment rule-based logic with supervised ML risk scoring
+
+Extend framework to real-time transaction streams
+
+Integrate dashboards for continuous fraud monitoring
+
+Benchmark detection effectiveness against industry KPIs
+
+📌 About This Project
+
+This project reflects an enterprise-style transformation mindset, demonstrating how process intelligence and analytics can be applied beyond dashboards to drive systemic risk reduction and sustainable controls.
 ---
 
 ## 📜 License
